@@ -1,0 +1,136 @@
+:root {
+    --bg-light: #f2f4f9;
+    --main-color: #3aafc9;
+    --text-color: #6f7da2;
+    --title-color: #141e39;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* #root {
+    width: 85%;
+    max-width: 1180px;
+    margin: 0 auto;
+} */
+
+.center {
+    width: 85%;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    height: 75vh;
+    background-color: var(--bg-light);
+}
+
+.decline-box {
+    height: 378px;
+    width: 100%;
+    background-image: linear-gradient(10deg, #fff 50%, #f2f4f9 50%);
+}
+
+.nav__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-top: 20px;
+}
+
+.navbar a {
+    font-size: 16px;
+    color: var(--text-color);
+    font-weight: 500;
+    margin-right: 60px;
+    text-decoration: none;
+}
+
+.navbar a:last-child {
+    margin-right: 0px;
+}
+
+.banner__container {
+    display: flex;
+    height: calc(75vh - 109px);
+}
+
+.banner_left {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+}
+
+.banner_left h1 {
+    width: 640px;
+    /* font-size: 50px; */
+    font-size: 3.125em;
+    font-size: 50px;
+    color: var(--title-color);
+    font-weight: 800;
+    line-height: 63px;
+    margin-bottom: 10px;
+}
+
+.banner_left .subtitle_banner {
+    font-size: 20px;
+    color: var(--text-color);
+    margin-bottom: 40px;
+}
+
+.btn-primary {
+    padding: 15px 37px 14px;
+    background-color: var(--main-color);
+    color: #fff;
+    text-transform: uppercase;
+    box-shadow: 0px 9px 18px rgba(58, 175, 201, 0.3);
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+/* .btn-primary:hover {
+    transform: scale(1.3);
+} */
+
+.btn-secundary {
+    padding: 15px 37px 14px;
+    background-color: transparent;
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+    text-transform: uppercase;
+    /* box-shadow: 0px 9px 18px rgba(58, 175, 201, 0.3); */
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.m-l-13 {
+    margin-left: 13px;
+}
+
+.banner_right {
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.banner_right img {
+    position: absolute;
+    top: -110px;
+    width: 1115px;
+    left: 58px;
+}
