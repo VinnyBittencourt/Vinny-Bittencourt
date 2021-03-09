@@ -1,11 +1,12 @@
 import logo from "./images/logo-small.png";
 import bannerimg from "./images/projects-banner.png";
+import aboutmeimg from "./images/profilepicture.png";
 
 import "./App.css";
 
 function App() {
     return (
-        <div>
+        <>
             <header>
                 <div className="center">
                     <div className="nav__container">
@@ -44,7 +45,53 @@ function App() {
                 </div>
             </header>
             <div className="decline-box"></div>
-        </div>
+
+            {/* About Me */}
+            <section className="about center">
+                <div className="about_left">
+                    <h2>About Me</h2>
+                    <p className="about-text">
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                        sed diam nonumy eirmod is simply dummy text of the
+                        printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and
+                        scrambled it to make a type specimen book. It has
+                        survived not only five centuries, but also the leap into
+                        electronic typesetting, remaining essentially unchanged.
+                        It was popularised in the 1960s with the release of
+                        Letraset sheets containing Lorem Ipsum passages, and
+                        more recently with desktop publishing software like
+                        Aldus PageMaker including versions of Lorem Ipsum.
+                    </p>
+                </div>
+                <div className="about-right">
+                    <img src={aboutmeimg} alt="Me" className="ar-img" />
+                </div>
+            </section>
+            <div className="decline-box-2"></div>
+
+            {/* Projects */}
+            <section className="projects">
+                <div className="proj center">
+                    <h2>My Projects</h2>
+                    <p className="projects-text">
+                        Take a look at some of my projects done with great care
+                        and dedication to the smallest details.
+                    </p>
+                    <div className="projects__container">
+                        <div className="proj"></div>
+                        <div className="proj"></div>
+                        <div className="proj"></div>
+                        <div className="proj"></div>
+                        <div className="proj"></div>
+                        <div className="proj"></div>
+                        <div className="proj"></div>
+                        <div className="proj"></div>
+                    </div>
+                </div>
+            </section>
+        </>
     );
 }
 
