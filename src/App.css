@@ -193,3 +193,44 @@ header {
 .projects {
     background-color: var(--bg-light);
 }
+
+.proj h2 {
+    font-size: 50px;
+    color: var(--title-color);
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 2;
+}
+
+.proj h2::after {
+    content: url("./images/Projects.png");
+    position: absolute;
+    left: -288px;
+    top: -164px;
+    z-index: -1;
+}
+
+.projects-text {
+    font-size: 16px;
+    color: var(--text-color);
+    margin-bottom: 40px;
+    line-height: 31px;
+    max-width: 727px;
+    z-index: 2;
+    position: relative;
+}
+
+.projects__container {
+    display: grid;
+    grid-template-columns: 356px 356px 356px 356px;
+    grid-template-rows: 522px 522px;
+    row-gap: 25px;
+    column-gap: 25px;
+    /* max-width: 1500px; */
+    margin-bottom: 200px;
+}
+
+.pj {
+    background-color: cyan;
+}

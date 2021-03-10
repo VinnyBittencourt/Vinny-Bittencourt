@@ -80,14 +80,14 @@ function App() {
                         and dedication to the smallest details.
                     </p>
                     <div className="projects__container">
-                        <div className="proj"></div>
-                        <div className="proj"></div>
-                        <div className="proj"></div>
-                        <div className="proj"></div>
-                        <div className="proj"></div>
-                        <div className="proj"></div>
-                        <div className="proj"></div>
-                        <div className="proj"></div>
+                        <div className="pj"></div>
+                        <div className="pj"></div>
+                        <div className="pj"></div>
+                        <div className="pj"></div>
+                        <div className="pj"></div>
+                        <div className="pj"></div>
+                        <div className="pj"></div>
+                        <div className="pj"></div>
                     </div>
                 </div>
             </section>
