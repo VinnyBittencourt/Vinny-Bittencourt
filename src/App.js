@@ -79,15 +79,66 @@ function App() {
                         Take a look at some of my projects done with great care
                         and dedication to the smallest details.
                     </p>
-                    <div className="projects__container">
-                        <div className="pj"></div>
-                        <div className="pj"></div>
-                        <div className="pj"></div>
-                        <div className="pj"></div>
-                        <div className="pj"></div>
-                        <div className="pj"></div>
-                        <div className="pj"></div>
-                        <div className="pj"></div>
+                    {/* <div className="projects__container">
+                        <div className="pj p01"></div>
+                        <div className="pj p02"></div>
+                        <div className="pj p03"></div>
+                        <div className="pj p04"></div>
+                        <div className="pj p05"></div>
+                        <div className="pj p06"></div>
+                        <div className="pj p07"></div>
+                        <div className="pj p08"></div>
+                    </div> */}
+
+                    <div className="projs__container">
+                        <div className="proj__midbox mid01">
+                            <a
+                                href="#"
+                                target="_blank"
+                                className="projs p01"
+                            ></a>
+                            <a
+                                href="#"
+                                target="_blank"
+                                className="projs p02"
+                            ></a>
+                        </div>
+                        <div className="proj__midbox mid02">
+                            <a
+                                href="#"
+                                target="_blank"
+                                className="projs p03"
+                            ></a>
+                            <a
+                                href="#"
+                                target="_blank"
+                                className="projs p04"
+                            ></a>
+                        </div>
+                        <div className="proj__midbox mid03">
+                            <a
+                                href="#"
+                                target="_blank"
+                                className="projs p05"
+                            ></a>
+                            <a
+                                href="#"
+                                target="_blank"
+                                className="projs p06"
+                            ></a>
+                        </div>
+                        <div className="proj__midbox mid04">
+                            <a
+                                href="#"
+                                target="_blank"
+                                className="projs p07"
+                            ></a>
+                            <a
+                                href="#"
+                                target="_blank"
+                                className="projs p08"
+                            ></a>
+                        </div>
                     </div>
                 </div>
             </section>
