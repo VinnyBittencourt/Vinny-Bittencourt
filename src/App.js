@@ -10,6 +10,7 @@ import github from "./images/github-sign.png";
 import linkedin from "./images/027-linkedin.png";
 import dribble from "./images/040-dribbble.png";
 import behance from "./images/047-behance.png";
+import logobg from "./images/logobg.png";
 
 import "./App.css";
 
@@ -257,7 +258,9 @@ function App() {
                             </a>
                         </div>
                     </div>
-                    <img src="" alt="Vinny B." />
+                    <div className="img-logo">
+                        <img src={logobg} alt="Vinny B." />
+                    </div>
                 </div>
             </section>
         </>
