@@ -1,6 +1,15 @@
 import logo from "./images/logo-small.png";
 import bannerimg from "./images/projects-banner.png";
 import aboutmeimg from "./images/profilepicture.png";
+import js from "./images/JS.png";
+import html from "./images/HTML.png";
+import css from "./images/CSS.png";
+import ui from "./images/UI.png";
+import reactjsimg from "./images/REACT.png";
+import github from "./images/github-sign.png";
+import linkedin from "./images/027-linkedin.png";
+import dribble from "./images/040-dribbble.png";
+import behance from "./images/047-behance.png";
 
 import "./App.css";
 
@@ -140,6 +149,115 @@ function App() {
                             ></a>
                         </div>
                     </div>
+                </div>
+            </section>
+
+            {/* My Skills */}
+            <section className="skills__container">
+                <div className="center skills">
+                    <h2>My Skills</h2>
+                    <p className="subtitle-skills">
+                        These are some of the skills and tools that I use in my
+                        day to day to create websites that make dreams come
+                        true.
+                    </p>
+                    <div className="box__skills">
+                        <div className="skill">
+                            <div className="upper-skill">
+                                <img src={js} alt="Skill" />
+                                <h3>JavaScript</h3>
+                            </div>
+                            <p className="skill-desc">
+                                Tool to make applications more fluid and with
+                                good interactions.
+                            </p>
+                        </div>
+                        <div className="skill">
+                            <div className="upper-skill">
+                                <img src={html} alt="Skill" />
+                                <h3>HTML5</h3>
+                            </div>
+                            <p className="skill-desc">
+                                For optimal application functioning and quick
+                                maintenance it is important to have a good
+                                structure with HTML5.
+                            </p>
+                        </div>
+                        <div className="skill">
+                            <div className="upper-skill">
+                                <img src={css} alt="Skill" />
+                                <h3>CSS3</h3>
+                            </div>
+                            <p className="skill-desc">
+                                Stylization of websites at the highest level to
+                                ensure customer attraction.
+                            </p>
+                        </div>
+                        <div className="skill">
+                            <div className="upper-skill">
+                                <img src={ui} alt="Skill" />
+                                <h3>UI/UX</h3>
+                            </div>
+                            <p className="skill-desc">
+                                Landing Page, User Flow, Wireframing and
+                                Prototyping Web applications.
+                            </p>
+                        </div>
+                        <div className="skill">
+                            <div className="upper-skill">
+                                <img src={reactjsimg} alt="Skill" />
+                                <h3>React JS</h3>
+                            </div>
+                            <p className="skill-desc">
+                                Most used tool on the market for its numerous
+                                advantages.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* Contact Me */}
+            <section className="contact__container">
+                <div className="center contact_box">
+                    <div className="contact">
+                        <h2>Let's Connect</h2>
+                        <p className="subtitle__contact">
+                            Make your ideas and dreams come true now. Get in
+                            touch with me through any of the following platforms
+                            and we will become best friends.
+                        </p>
+                        <h4 className="info-title">Contact me by email</h4>
+                        <p className="email">vinisataides@gmail.com</p>
+                        <h4 className="info-title info-2">Or</h4>
+                        <div className="social-media">
+                            <a
+                                href="https://github.com/VinnyBittencourt"
+                                target="_blank"
+                            >
+                                <img src={github} alt="GitHub" />
+                            </a>
+                            <a
+                                href="https://www.linkedin.com/in/vinnybittencourt/"
+                                target="_blank"
+                            >
+                                <img src={linkedin} alt="Linkedin" />
+                            </a>
+                            <a
+                                href="https://www.behance.net/viniciusataides"
+                                target="_blank"
+                            >
+                                <img src={behance} alt="Behance" />
+                            </a>
+                            <a
+                                href="https://dribbble.com/VinnyAtaides"
+                                target="_blank"
+                            >
+                                <img src={dribble} alt="Dribble" />
+                            </a>
+                        </div>
+                    </div>
+                    <img src="" alt="Vinny B." />
                 </div>
             </section>
         </>

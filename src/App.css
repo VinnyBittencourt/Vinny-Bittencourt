@@ -237,8 +237,11 @@ header {
 
 .projs__container {
     max-width: 1500px;
-    display: flex;
-    margin-bottom: 200px;
+    display: grid;
+    grid-template-columns: 356px 356px 356px 356px;
+    /* grid-template-columns: 25% 25% 25% 25%; */
+    column-gap: 25px;
+    padding-bottom: 200px;
 }
 
 .proj__midbox {
@@ -254,7 +257,7 @@ header {
     background-position: center;
 }
 
-.mid01 {
+/* .mid01 {
     margin-right: 12.5px;
 }
 
@@ -265,7 +268,7 @@ header {
 
 .mid04 {
     margin-left: 12.5px;
-}
+} */
 
 .proj__midbox .projs:first-child {
     margin-bottom: 25px;
@@ -318,4 +321,106 @@ header {
     background-image: url(./images/Fig08.png);
     background-size: cover;
     border-radius: 10px;
+}
+
+/* Skills */
+
+.skills__container {
+    padding: 300px 0;
+    width: 100%;
+}
+
+.skills h2 {
+    font-size: 50px;
+    color: var(--title-color);
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 2;
+}
+
+.skills h2::after {
+    content: url("./images/Skills.png");
+    position: absolute;
+    left: -288px;
+    top: -164px;
+    z-index: -1;
+}
+
+.subtitle-skills {
+    font-size: 16px;
+    color: var(--text-color);
+    margin-bottom: 40px;
+    line-height: 31px;
+    max-width: 727px;
+    z-index: 2;
+    position: relative;
+}
+
+.box__skills {
+    max-width: 1326px;
+    display: grid;
+    grid-template-columns: 306px 306px 306px;
+    column-gap: 205px;
+    row-gap: 65px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.upper-skill {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.upper-skill h3 {
+    margin-left: 55px;
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--title-color);
+}
+
+.skill-desc {
+    max-width: 306px;
+    color: var(--text-color);
+    line-height: 31px;
+    font-size: 16px;
+}
+
+/* Contact Me */
+
+.contact__container {
+    padding: 300px 0 200px;
+    background-color: var(--bg-light);
+}
+
+.contact_box {
+    display: flex;
+}
+
+.contact h2 {
+    font-size: 50px;
+    color: var(--title-color);
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 2;
+}
+
+.contact h2::after {
+    content: url("./images/ContactMe.png");
+    position: absolute;
+    left: -500px;
+    top: -164px;
+    z-index: -1;
+}
+
+.subtitle__contact {
+    font-size: 16px;
+    color: var(--text-color);
+    margin-bottom: 30px;
+    line-height: 31px;
+    max-width: 727px;
+    z-index: 2;
+    position: relative;
 }
