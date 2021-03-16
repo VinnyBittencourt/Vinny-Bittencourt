@@ -529,3 +529,22 @@ header {
         left: -620px;
     }
 }
+
+@media (max-width: 900px) {
+    .about {
+        flex-direction: column;
+    }
+    .ar-img {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .projs__container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .projs {
+        height: 215px;
+    }
+    .proj__midbox {
+        margin-bottom: 25px;
+    }
+}
