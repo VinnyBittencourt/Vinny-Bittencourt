@@ -547,4 +547,66 @@ header {
     .proj__midbox {
         margin-bottom: 25px;
     }
+    .box__skills {
+        grid-template-columns: unset;
+        justify-content: unset;
+    }
+    .upper-skill h3 {
+        margin-left: 25px;
+    }
+    .img-logo img {
+        display: none;
+    }
+    .img-logo {
+        display: none;
+    }
+    .contact h2,
+    .skills h2,
+    .proj h2,
+    .about_left h2,
+    .banner_left h1 {
+        font-size: 2.2rem;
+    }
+
+    .banner__container {
+        flex-direction: column;
+        z-index: 1;
+    }
+    .banner_right img {
+        top: -95px;
+        width: 400px;
+        left: -7%;
+    }
+    .banner_right {
+        margin-top: 90px;
+    }
+    .banner_left h1 {
+        font-size: 2.2rem;
+        line-height: 38px;
+        width: 100%;
+        text-align: center;
+    }
+    .subtitle_banner {
+        font-size: 14px !important;
+        text-align: center;
+        line-height: 20px;
+        margin-bottom: 30px;
+    }
+    .banner_left {
+        margin-top: 50%;
+    }
+
+    .btn-primary,
+    .btn-secundary {
+        padding: 15px 25px 14px;
+        font-size: 14px;
+    }
+    .flex-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .banner_right img {
+        display: none;
+    }
 }
