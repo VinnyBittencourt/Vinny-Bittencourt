@@ -27,6 +27,11 @@ function App() {
                             <a href="#skills">Skills</a>
                             <a href="#contact">Contact me</a>
                         </div>
+                        {/* <div className="navbar-phone">
+                            <div className="menu">
+                                <a href="#">About me</a>
+                            </div>
+                        </div> */}
                     </div>
                     <div className="banner__container">
                         <div className="banner_left">
