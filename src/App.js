@@ -29,7 +29,7 @@ function App() {
                         </div>
                         {/* <div className="navbar-phone">
                             <div className="menu">
-                                <a href="#">About me</a>
+                                <a href="#">About me</a> teste rapido
                             </div>
                         </div> */}
                     </div>
