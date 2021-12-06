@@ -131,7 +131,7 @@ header {
 }
 
 .about_left h2::after {
-    content: url("./images/aboutmeimg.png");
+    content: url("../../images/aboutmeimg.png");
     position: absolute;
     left: -400px;
     top: -164px;
@@ -153,7 +153,7 @@ header {
 }
 
 .ar-img::after {
-    content: url("./images/retan.png");
+    content: url("../../images/retan.png");
     position: absolute;
     left: 100px;
     top: 0px;
@@ -174,7 +174,7 @@ header {
 }
 
 .proj h2::after {
-    content: url("./images/Projects.png");
+    content: url("../../images/Projects.png");
     position: absolute;
     left: -288px;
     top: -164px;
@@ -246,49 +246,49 @@ header {
 
 .p01 {
     height: 522px;
-    background-image: url(./images/Fig01.png);
+    background-image: url(../../images/Fig01.png);
     background-size: cover;
     border-radius: 10px;
 }
 .p02 {
     height: 363px;
-    background-image: url(./images/Fig02.png);
+    background-image: url(../../images/Fig02.png);
     background-size: cover;
     border-radius: 10px;
 }
 .p03 {
     height: 445px;
-    background-image: url(./images/Fig03.png);
+    background-image: url(../../images/Fig03.png);
     background-size: cover;
     border-radius: 10px;
 }
 .p04 {
     height: 440px;
-    background-image: url(./images/Fig04.png);
+    background-image: url(../../images/Fig04.png);
     background-size: cover;
     border-radius: 10px;
 }
 .p05 {
     height: 344px;
-    background-image: url(./images/Fig05.png);
+    background-image: url(../../images/Fig05.png);
     background-size: cover;
     border-radius: 10px;
 }
 .p06 {
     height: 541px;
-    background-image: url(./images/Fig06.png);
+    background-image: url(../../images/Fig06.png);
     background-size: cover;
     border-radius: 10px;
 }
 .p07 {
     height: 445px;
-    background-image: url(./images/Fig07.png);
+    background-image: url(../../images/Fig07.png);
     background-size: cover;
     border-radius: 10px;
 }
 .p08 {
     height: 440px;
-    background-image: url(./images/Fig08.png);
+    background-image: url(../../images/Fig08.png);
     background-size: cover;
     border-radius: 10px;
 }
@@ -310,7 +310,7 @@ header {
 }
 
 .skills h2::after {
-    content: url("./images/Skills.png");
+    content: url("../../images/Skills.png");
     position: absolute;
     left: -288px;
     top: -164px;
@@ -378,7 +378,7 @@ header {
 }
 
 .contact h2::after {
-    content: url("./images/ContactMe.png");
+    content: url("../../images/ContactMe.png");
     position: absolute;
     left: -500px;
     top: -164px;

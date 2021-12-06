@@ -1,20 +1,21 @@
-import logo from "./images/logo-small.png";
-import bannerimg from "./images/projects-banner.png";
-import aboutmeimg from "./images/profilepicture.png";
-import js from "./images/JS.png";
-import html from "./images/HTML.png";
-import css from "./images/CSS.png";
-import ui from "./images/UI.png";
-import reactjsimg from "./images/REACT.png";
-import github from "./images/github-sign.png";
-import linkedin from "./images/027-linkedin.png";
-import dribble from "./images/040-dribbble.png";
-import behance from "./images/047-behance.png";
-import logobg from "./images/logobg.png";
+import logo from "../../images/logo-small.png";
+import bannerimg from "../../images/projects-banner.png";
+import aboutmeimg from "../../images/profilepicture.png";
+import js from "../../images/JS.png";
+import html from "../../images/HTML.png";
+import css from "../../images/CSS.png";
+import ui from "../../images/UI.png";
+import reactjsimg from "../../images/REACT.png";
+import github from "../../images/github-sign.png";
+import linkedin from "../../images/027-linkedin.png";
+import dribble from "../../images/040-dribbble.png";
+import behance from "../../images/047-behance.png";
+import logobg from "../../images/logobg.png";
 
-import "./App.css";
 
-function App() {
+import "./style.css";
+
+export default function old() {
     return (
         <>
             <header>
@@ -272,4 +273,4 @@ function App() {
     );
 }
 
-export default App;
+
