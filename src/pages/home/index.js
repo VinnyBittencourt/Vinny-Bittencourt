@@ -19,6 +19,11 @@ export default function hoje() {
                     </Link>
                 </div>
             </header>
+            <div>
+            <Link to="/tablet" className="btn-primary">
+                        TABLET <FiChevronsRight size={32} />
+                    </Link>
+            </div>
             <section className="meio">
                 <div className="box-esquerda">
                     <p className="uppertext">Olá, eu sou Vinny Bittencourt</p>

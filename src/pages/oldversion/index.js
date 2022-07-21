@@ -11,6 +11,7 @@ import linkedin from "../../images/027-linkedin.png";
 import dribble from "../../images/040-dribbble.png";
 import behance from "../../images/047-behance.png";
 import logobg from "../../images/logobg.png";
+
 import * as S from './style'
 
 export default function old() {
