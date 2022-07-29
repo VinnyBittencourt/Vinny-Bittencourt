@@ -7,6 +7,7 @@ import "./style.css";
 export default function hoje() {
   return (
     <>
+    
       <div className="rf">
         <h1>Login</h1>
         <h5>Login</h5>
@@ -18,6 +19,7 @@ export default function hoje() {
         </div>
 
         <a href="#" className="btn-rf">Concluir</a>
+        <div className="caixa01"></div>
       </div>
     </>
   );
