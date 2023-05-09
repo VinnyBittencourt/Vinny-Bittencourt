@@ -1,81 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
-.rf{
-    color: #2B2F35;
-    font-family: 'Poppins';
-
-    margin-left: 32px;
-    margin-top: 32px;
-    position: absolute;
+*{
+    color:#212121;
+    font-family: 'Roboto', sans-serif;
 }
 
-/* .caixa01{
-    position: relative;
-    background:rgb(70, 53, 47);
-    width: 360px;
-    height: 500px;
-} */
-
-.rf h1{
-
-    font-style: normal;
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 52px;
-    color: #2B2F35;
-
-    margin-bottom: 24px;
+#root{
+    width: 100vw;
 }
 
-.rf h5{
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 28px;
-
-    margin-bottom: 24px;
+.mobile{
+    height: auto;
+    width: 100vw;
+    overflow-x: unset;
+    overflow-y: unset;
+    font-family: 'Roboto', sans-serif;
 }
 
-.rf p{
-    font-style: normal;
+.header{
+    width: auto;
+    padding: 20px 24px;
+    background-color: #0D69FD;
+    color: #ffffff;
+
+    display: flex;
+    align-items: center;
+    justify-content: safe;
+}
+
+.header h2{
+    font-size: 18px;
     font-weight: 500;
-    font-size: 14px;
-    line-height: 22px;
-
-    margin-bottom: 32px;
+    margin-left: 8px;
+    color: #fff;
 }
 
-.box-inp{
+.header svg{
+    color: #fff;
+    padding: 0 8px;
+}
+
+.body{
+    padding: 16px;
+    background-color: #F8F8F8;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.disclaimer{
+    display: flex;
+    align-items: center;
+    justify-content: safe;
+
+    padding: 8px;
+    background-color: #E8F1FF;
+    color: #0D69FD;
+    margin-bottom: 24px;
+    border-radius: 8px;
+}
+
+.disclaimer p{
+    color: #0D69FD;
+    width: 293px;
+    font-size: 12PX;
+    font-weight: 500;
+    margin-left: 8px;
+}
+
+.info{
+    margin-bottom: 24px;
+}
+
+.info h6{
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.info__line{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.bold {
+    font-weight: 500;
+}
+
+
+.positions h6{
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.group_card{
     display: flex;
     flex-direction: column;
 }
 
-.inputzera{
-    border: 1px solid #6B7786;
-    
+.card{
+    display: flex;
+    justify-content: space-between;
 
-    padding: 11px 16px;
-    width: 278px;
+    padding: 16px;
+    background-color: #fff;
+    margin-bottom: 4px;
     border-radius: 8px;
-
-    margin-bottom: 24px;
 }
 
-.inputzera::placeholder{
-    color: #C7CDD6;
+.card p{
+    font-size: 14px;
 }
 
-.btn-rf{
+.card a{
+    font-size: 14px;
+    color: #0D69FD;
+    text-decoration: none;
+    font-weight: 500;
+    
+}
+
+.btn{
     background-color: #0F6EFE;
     box-shadow: 0px 2px 12px rgba(73, 80, 87, 0.24);
     border-radius: 8px;
     padding: 11px 8px;
     text-decoration: none;
     color: #fff;
-
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 22px;
+    cursor: pointer;
+
+    display: flex;
+    align-items: cent;
+    justify-content: center;
+}
+
+.btn:hover{
+    background-color: #144286;
 }
 
 /* Width */
@@ -85,90 +156,3 @@
         color: red;
     }
 }
-
-@media (max-width: 481px) {
-    .rf h1{
-        color: blue;
-    }
-}
-
-@media (max-width: 400px) {
-    .rf h1{
-        color: green;
-    }
-}
-
-@media (max-width: 380px) {
-    .rf h1{
-        color: cyan;
-    }
-}
-
-@media (max-width: 360px) {
-    .rf h1{
-        color: pink;
-    }
-}
-
-@media (max-width: 340px) {
-    .rf h1{
-        color: rgb(70, 53, 47);
-    }
-}
-
-
-/* Height */
-
-
-@media (max-height: 700px) {
-    .rf{
-        background-color: rgb(134, 126, 252);
-    }
-}
-
-
-@media (max-height: 800px) {
-    .rf{
-        background-color: rgb(0, 255, 149);
-    }
-}
-
-@media (max-height: 650px) {
-    .rf{
-        background-color: rgb(199, 203, 255);
-    }
-}
-
-@media (max-height: 600px) {
-    .rf{
-        background-color: rgb(192, 158, 5);
-    }
-}
-
-
-@media (max-height: 550px) {
-    .rf{
-        background-color: rgb(3, 113, 156);
-    }
-}
-
-@media (max-height: 500px) {
-    .rf{
-        background-color: rgb(118, 143, 117);
-    }
-}
-
-
-@media (max-height: 450px) {
-    .rf{
-        background-color: rgb(255, 83, 112);
-    }
-}
-
-@media (max-height: 400px) {
-    .rf{
-        background-color: rgb(70, 53, 47);
-    }
-}
-
-
